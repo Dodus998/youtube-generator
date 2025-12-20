@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>YouTube Audio Replacer</title>
+  <style>
+    body {
+      width: 350px;
+      padding: 20px;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 18px;
+      margin: 0 0 15px 0;
+      color: #333;
+    }
+
+    .section {
+      margin-bottom: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+      color: #555;
+      font-size: 14px;
+    }
+
+    #channelInput {
+      width: 100%;
+      padding: 8px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      font-size: 14px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #1a73e8;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 14px;
+      margin-top: 8px;
+    }
+
+    button:hover {
+      background-color: #1557b0;
+    }
+
+    #channelList {
+      margin-top: 15px;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .channel-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 8px;
+      background-color: #f5f5f5;
+      border-radius: 4px;
+      margin-bottom: 8px;
+    }
+
+    .channel-name {
+      flex: 1;
+      font-size: 14px;
+      color: #333;
+    }
+
+    .remove-btn {
+      background-color: #d93025;
+      color: white;
+      border: none;
+      padding: 4px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 12px;
+      margin: 0;
+    }
+
+    .remove-btn:hover {
+      background-color: #b02a1f;
+    }
+
+    .info {
+      font-size: 12px;
+      color: #666;
+      margin-top: 5px;
+      line-height: 1.4;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 20px;
+      color: #999;
+      font-size: 14px;
+    }
+
+    .status {
+      padding: 8px;
+      background-color: #e8f5e9;
+      color: #2e7d32;
+      border-radius: 4px;
+      font-size: 12px;
+      margin-top: 10px;
+      display: none;
+    }
+
+    .status.show {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>🎵 YouTube Audio Replacer</h1>
+
+  <div class="section">
+    <label for="channelInput">Add Target Channel:</label>
+    <input type="text" id="channelInput" placeholder="Enter channel name or @handle">
+    <div class="info">Enter the channel name or handle (e.g., "LinusTechTips" or "@LinusTechTips")</div>
+    <button id="addChannel">Add Channel</button>
+    <div id="status" class="status"></div>
+  </div>
+
+  <div class="section">
+    <label>Target Channels:</label>
+    <div id="channelList">
+      <div class="empty-state">No channels added yet</div>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
